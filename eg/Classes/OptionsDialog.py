@@ -193,7 +193,7 @@ class OptionsDialog(eg.TaskletDialog):
                 languageChoice.Append(name)
 
         if config.language not in languageList:
-            config.language='en_EN'
+            config.language='en_US'
 
         languageChoice.SetSelection(languageList.index(config.language))
         languageChoice.SetMinSize((150, -1))
